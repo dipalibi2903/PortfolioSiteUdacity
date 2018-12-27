@@ -1,0 +1,99 @@
+/* General: Css For All Pages */
+
+* {
+    font-family: "Lato",sans-serif;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  
+  /* Section : Header*/
+  
+  .header_inner {
+    border-bottom: 4px solid #bababa;
+    margin: 20px 0 20px;
+  }
+  
+  .logo {
+    padding:15px
+  }
+  
+  .logo img {
+    max-width: 70px;
+  }
+  
+  .header-text {
+    text-transform: uppercase;
+    color: #2d3c49;
+  }
+  
+  /*Section : When Device is Small */
+  @media (max-width: 48em) {   
+    .header-text, .logo{
+      text-align: center;
+    }
+  
+    .header-text h1 {
+      font-size: 3em;
+      font-weight: 100;
+      margin-bottom: 0;
+    }
+  
+    .header-text h3 {
+      font-weight: 400;
+      margin-top: 0.5em;
+    }
+  
+  }
+  
+  /* Section : When device is medium and Larger*/
+
+  @media (min-width: 48em) { 
+  
+    .header-text {
+      text-align: right;
+    }
+  
+    .logo {
+      text-align: left;
+    }
+  
+    .header-text h1 {
+      font-size: 3em;
+      font-weight: 100;
+      margin-bottom: 0;
+    }
+  
+    .header-text h3 {
+      font-weight: 400;
+      margin-top: 0.5em;
+    }
+  
+  }
+  
+  /* Section : Header Main  */
+  
+  main img {
+    width: 100%;
+  }
+  
+  /* Section : Footer */
+  
+  footer h2 {
+    text-align: left;
+    font-size: 2em;
+    font-weight: 400;
+    color: #7d97ad;
+  }
+  
+  footer a {
+    color: #2d3c49;
+    text-decoration: none;
+  }
+  
+  article img {
+    width: 100%;
+    height: 200px;
+  }
